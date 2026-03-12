@@ -153,8 +153,11 @@ header .inner {
     height: 2px;
     z-index: 30;
     margin: 6px 0px 0px 30px;
-    cursor: pointer;
     transition: all 0.4s ease;
+}
+
+#menu-btn{
+	cursor: pointer;
 }
 
 #menu-btn.active span:nth-of-type(1) {
